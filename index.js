@@ -9,6 +9,7 @@ app.get('/',function(req,res){
 
 app.get('/contact',function(req,res){
     res.send('Contact Us')
+})
 
 app.get('/about',function(req,res){
     res.send('About Us')
